@@ -103,11 +103,15 @@ https://github.com/Yosef100/Databases_Mini-project_20205_324710144/blob/main/per
 ## Stage 2:
 # Backups:
 the script, backup and log for the two backup methods
+
 A.
+
 https://github.com/Yosef100/Databases_Mini-project_20205_324710144/blob/main/PSQL%20backup%20script.bat
 https://github.com/Yosef100/Databases_Mini-project_20205_324710144/blob/main/backupSQL.sql
 https://github.com/Yosef100/Databases_Mini-project_20205_324710144/blob/main/backupSQL.log
+
 B.
+
 https://github.com/Yosef100/Databases_Mini-project_20205_324710144/blob/main/PSQL%20backup%20script.bat
 https://github.com/Yosef100/Databases_Mini-project_20205_324710144/blob/main/backupPSQL.sql
 https://github.com/Yosef100/Databases_Mini-project_20205_324710144/blob/main/backupPSQL.log
@@ -227,6 +231,21 @@ Violations:
 script:
 
 https://github.com/Yosef100/Databases_Mini-project_20205_324710144/blob/main/ConstraintsViolations.sql
+
+error types:
+
+NOT NULL
+Effect: Attempting to insert or update a row with a NULL value in a NOT NULL column.
+
+UNIQUE
+Effect: Attempting to insert or update a row with a duplicate value in a column or column combination defined as UNIQUE.
+
+CHECK
+Effect: Attempting to insert or update a row that violates the condition specified in a CHECK constraint.
+
+TRIGGER (row-level BEFORE)
+Effect: Custom procedural validation logic failed; the trigger raised an exception because the operation violated a business rule (e.g., cycle in management, invalid date order, or lower-level license insertion).
+
 
 resulting errors:
 
