@@ -328,4 +328,43 @@ run_time:
 <img width="1709" height="1205" alt="image" src="https://github.com/user-attachments/assets/2df82a42-95e8-4690-8d7a-70082626da45" />
 We can see that the running times are shorter.
 
+## Stage 4:
+The goal of the phase: Integrate our database (HR) with another team's external database (Advertising), perform a logical merge using FDW + mapping table, build useful views, and produce more ERD/DSD diagrams and full data.
+
+# Integration between two databases (FDW)
+Creating an extension (once per DB) and creating a Foreign Server and User Mapping:
+<img width="1709" height="666" alt="image" src="https://github.com/user-attachments/assets/8db2a883-8906-48e5-a92d-06b6b73d2eb2" />
+Logical schemes on our side:
+<img width="1621" height="372" alt="image" src="https://github.com/user-attachments/assets/3820c059-1077-440d-9749-2066703001f4" />
+Import schemas/tables from the other team (FDW → Foreign Tables):
+<img width="1667" height="556" alt="image" src="https://github.com/user-attachments/assets/2a60748c-1772-4492-9290-87abfeb4df07" />
+Preparing the data on our side (HR)
+We assume that the core tables are in main (e.g. main.employee, main.department, main.position).
+Checking columns:
+<img width="1265" height="476" alt="image" src="https://github.com/user-attachments/assets/16d6772f-c081-4a5d-9206-c229a2e95f62" />
+Mapping table (Bridge) – logical bridge between HR and Ads:
+<img width="1252" height="684" alt="image" src="https://github.com/user-attachments/assets/71d5cf16-7180-40e2-a4ae-821f34317057" />
+
+# view:
+the first view:
+Agent Profile ↔ HR Employee
+<img width="1713" height="826" alt="image" src="https://github.com/user-attachments/assets/da6d88e0-14c7-485c-8eeb-e72d8f557538" />
+select:
+<img width="1702" height="1272" alt="image" src="https://github.com/user-attachments/assets/a6436886-9729-4cd3-bf7c-6932a0b97799" />
+dml:
+<img width="1716" height="1143" alt="image" src="https://github.com/user-attachments/assets/01e02c9e-6f45-4f52-91d5-144a9f28b7c9" />
+
+the second view:
+Mapping table wrapper
+<img width="1707" height="891" alt="image" src="https://github.com/user-attachments/assets/d9630b4e-c481-436e-894b-f6c9a72bc195" />
+select:
+<img width="1720" height="1333" alt="image" src="https://github.com/user-attachments/assets/4ab8c3fe-004e-4c38-ae42-32b40495c735" />
+dml:
+<img width="1712" height="1008" alt="image" src="https://github.com/user-attachments/assets/4fecdf66-c43b-437b-9f53-5f456c660af1" />
+
+# queriers:
+first querier:
+![תמונה של WhatsApp‏ 2025-10-15 בשעה 22 24 20_183db99f](https://github.com/user-attachments/assets/08282322-870b-47bc-abe1-3e1be6f66d89)
+
+
 
