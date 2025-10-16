@@ -275,24 +275,25 @@ Time:
 script:
 https://github.com/Yosef100/Databases_Mini-project_20205_324710144/blob/main/Stage%203%20query
 
-# view
-first view: active employees
-<img width="1648" height="860" alt="image" src="https://github.com/user-attachments/assets/96164b1e-a38d-45a1-b036-287d21e6c933" />
+# views
+1- active employees. based on employee
 
-second view: oncall valid
-<img width="1640" height="980" alt="image" src="https://github.com/user-attachments/assets/fe70beaa-d302-4c8e-935c-5504607bd8b4" />
-The day is out of the day that exist. Error.
+2- oncall valid. based on oncall_shift
 
-third view: current licenses
-<img width="1627" height="835" alt="image" src="https://github.com/user-attachments/assets/17affee8-10dd-47a8-bb03-5dbe00f0986b" />
-v3 is updatable he didn't know where to go.
+3- current licenses. based on employee and employee_license
 
-fourth view: all about the employee
-<img width="1637" height="831" alt="image" src="https://github.com/user-attachments/assets/740f3bb0-55e2-45c2-ab6c-176c22eedab8" />
-v4 is updatable he didn't know where to go.
+4- employee overview. based on employee, department and  position.
 
 script:
-https://github.com/Yosef100/Databases_Mini-project_20205_324710144/blob/main/view
+https://github.com/Yosef100/Databases_Mini-project_20205_324710144/blob/main/views
+
+Select queries:
+
+<img width="582" height="349" alt="image" src="https://github.com/user-attachments/assets/428e3900-d125-4f15-a32a-e6984f5e1296" />
+<img width="580" height="381" alt="image" src="https://github.com/user-attachments/assets/2b0c3ade-33f4-4ee9-bb03-d4a6a39e8a19" />
+<img width="583" height="333" alt="image" src="https://github.com/user-attachments/assets/c04202ff-9d96-4ee9-b728-5abb8a437155" />
+<img width="599" height="364" alt="image" src="https://github.com/user-attachments/assets/71402b4b-f43f-4324-a925-f01768c292ad" />
+
 
 
 # visualization
