@@ -365,6 +365,14 @@ dml:
 # queriers:
 first querier:
 ![תמונה של WhatsApp‏ 2025-10-15 בשעה 22 24 20_183db99f](https://github.com/user-attachments/assets/08282322-870b-47bc-abe1-3e1be6f66d89)
+second querier:
+![תמונה של WhatsApp‏ 2025-10-15 בשעה 22 25 02_c64bcd79](https://github.com/user-attachments/assets/a83a691f-6688-4df3-a9a9-6508fdd98dca)
+thired querier:
+![תמונה של WhatsApp‏ 2025-10-15 בשעה 22 27 14_704ab040](https://github.com/user-attachments/assets/a4036a43-1e84-496d-ba5c-e71f7c4f9f8b)
+foured querier:
+![תמונה של WhatsApp‏ 2025-10-15 בשעה 22 28 02_76e8ea22](https://github.com/user-attachments/assets/ab1c3e86-be38-412a-8ea5-2c850c003d70)
+runTime:
+![תמונה של WhatsApp‏ 2025-10-15 בשעה 22 29 40_c461e601](https://github.com/user-attachments/assets/0c0f2da2-dd3f-4bc7-9dc5-0c42b5039999)
 
 
 
