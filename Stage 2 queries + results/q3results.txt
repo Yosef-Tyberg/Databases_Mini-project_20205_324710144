@@ -1,0 +1,49 @@
+ license_id | employee_id |      employee      |        license_name         | expiry_date | days_until_expiry 
+------------+-------------+--------------------+-----------------------------+-------------+-------------------
+       3507 |   100191360 | Aiden Riley        | VAT Handling Cert           | 2025-09-08  |                 0
+       2689 |   266624382 | Kody Williams      | Tour Guide Level 1          | 2025-09-10  |                 2
+       4714 |   810445956 | Asher Nolan        | Advanced Ticketing Cert     | 2025-09-13  |                 5
+       6697 |   637110537 | Harlan Green       | IATA Agent                  | 2025-09-13  |                 5
+       6816 |   357612830 | Dylan Clark        | Corporate Travel Cert       | 2025-09-14  |                 6
+       3955 |   774411618 | John Rogers        | IATA Agent                  | 2025-09-14  |                 6
+       7784 |   909266446 | Andrew Berg        | AML Awareness               | 2025-09-16  |                 8
+       6621 |   257461117 | Charles James      | AML Awareness               | 2025-09-17  |                 9
+        975 |   563480568 | Peter Evans        | Tour Guide Level 2          | 2025-09-20  |                12
+       7109 |   968478224 | Jameson Alvarez    | VAT Handling Cert           | 2025-09-20  |                12
+       4313 |   478088706 | Asher White        | API Access Approval         | 2025-09-21  |                13
+       1667 |   686613303 | Jack Nguyen        | Senior Agent Accreditation  | 2025-09-22  |                14
+       7907 |   230876233 | Jaxon Taylor       | Corporate Travel Cert       | 2025-09-22  |                14
+       1792 |   728927400 | Nicholas Martin    | Customer Privacy Training   | 2025-09-23  |                15
+       1446 |   969763747 | Leonardo Rodriguez | VAT Handling Cert           | 2025-09-24  |                16
+       7761 |   910639786 | Kai Douglas        | Security Screening Training | 2025-09-26  |                18
+       2279 |   950899920 | Ezekiel Richardson | Fraud Prevention Cert       | 2025-09-28  |                20
+       2687 |   490852567 | Mason Robinson     | Security Screening Training | 2025-10-03  |                25
+       7383 |   329704114 | Victor Sanders     | IATA Agent                  | 2025-10-05  |                27
+       4705 |   757956919 | Max Myers          | VAT Handling Cert           | 2025-10-08  |                30
+        414 |   335903884 | Theodore Brooks    | Customer Privacy Training   | 2025-10-09  |                31
+       6982 |   608382241 | Isaiah Schultz     | IATA Agent                  | 2025-10-10  |                32
+       6798 |   843707819 | Easton Ortiz       | Tour Guide Level 2          | 2025-10-11  |                33
+       6588 |   225949574 | Sebastian Nguyen   | Corporate Travel Cert       | 2025-10-12  |                34
+       3856 |   952671254 | Omar Green         | AML Awareness               | 2025-10-13  |                35
+       6843 |   413967231 | Matthew Cohen      | VAT Handling Cert           | 2025-10-15  |                37
+       3579 |   781128657 | Orion Sanders      | Security Screening Training | 2025-10-16  |                38
+       4302 |   412977360 | Colton Stewart     | VAT Handling Cert           | 2025-10-20  |                42
+       7975 |   911777849 | Levi Davis         | Tour Guide Level 2          | 2025-10-22  |                44
+       3236 |   277039314 | Easton Robinson    | Tour Guide Level 2          | 2025-10-25  |                47
+       1128 |   385975846 | Gabriel Cross      | Tour Guide Level 1          | 2025-10-25  |                47
+       4642 |   804648108 | Anthony Bailey     | Customer Privacy Training   | 2025-10-28  |                50
+       6488 |   609562434 | Hunter Ramos       | Senior Agent Accreditation  | 2025-10-29  |                51
+        496 |   834351541 | Ezra Hall          | VAT Handling Cert           | 2025-10-29  |                51
+       3042 |   557595335 | Thomas James       | IATA Agent                  | 2025-10-30  |                52
+       6718 |   317756398 | Declan Howard      | Tour Guide Level 2          | 2025-10-30  |                52
+       3622 |   871836716 | Evan Green         | Tour Guide Level 1          | 2025-10-30  |                52
+       1393 |   371904582 | Beau Taylor        | Tour Guide Level 2          | 2025-11-01  |                54
+        475 |   375085852 | Samuel Gardner     | AML Awareness               | 2025-11-02  |                55
+       5082 |   914435753 | Christian Thomas   | Corporate Travel Cert       | 2025-11-02  |                55
+        196 |   812479030 | Ethan Anderson     | Tour Guide Level 2          | 2025-11-02  |                55
+        731 |   344507213 | Lucas Hughes       | API Access Approval         | 2025-11-03  |                56
+       5311 |   629058567 | Anthony Taylor     | Tour Guide Level 2          | 2025-11-04  |                57
+       3096 |   404043208 | Carson Schultz     | Tour Guide Level 2          | 2025-11-05  |                58
+       5517 |   270537200 | Thomas Spencer     | Senior Agent Accreditation  | 2025-11-07  |                60
+(45 rows)
+

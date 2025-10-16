@@ -1,4 +1,0 @@
- emp1_id | emp1_name | emp2_id | emp2_name | overlapping_shifts_count | first_overlap_start | last_overlap_end 
----------+-----------+---------+-----------+--------------------------+---------------------+------------------
-(0 rows)
-
