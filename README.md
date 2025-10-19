@@ -296,7 +296,49 @@ Select queries:
 <img width="583" height="333" alt="image" src="https://github.com/user-attachments/assets/c04202ff-9d96-4ee9-b728-5abb8a437155" />
 <img width="599" height="364" alt="image" src="https://github.com/user-attachments/assets/71402b4b-f43f-4324-a925-f01768c292ad" />
 
+CRUD + base tables' refelection:
 
+V1: v_active_employees
+<img width="975" height="457" alt="image" src="https://github.com/user-attachments/assets/387e5c96-bbc5-4edf-a46e-3ec63e335b0b" />
+<img width="975" height="488" alt="image" src="https://github.com/user-attachments/assets/59bb8f56-2ea5-46cf-b437-0527a9bf4828" />
+
+V2: v_oncall_shifts_valid
+<img width="975" height="418" alt="image" src="https://github.com/user-attachments/assets/4339a3bc-70b4-4cfc-81fd-c4c481ad9475" />
+<img width="975" height="471" alt="image" src="https://github.com/user-attachments/assets/e74ec032-8cd3-4d4b-bc2b-288c95fd5930" />
+
+V3: v_current_licenses
+<img width="975" height="467" alt="image" src="https://github.com/user-attachments/assets/31525628-3a06-46dd-88bd-4e65ab9845e2" />
+
+V4: v_employee_overview
+<img width="975" height="471" alt="image" src="https://github.com/user-attachments/assets/2bdaf3e5-e773-4591-a8e8-e292afda88e8" />
+<img width="975" height="472" alt="image" src="https://github.com/user-attachments/assets/62663931-d2e4-404e-b4b0-66790a6c102e" />
+
+WITH CHECK OPTION/ Trigger violations:
+
+V1: v_active_employees
+<img width="975" height="328" alt="image" src="https://github.com/user-attachments/assets/198b3ac2-7e8d-46c3-a9ce-25c9d3c97333" />
+<img width="975" height="466" alt="image" src="https://github.com/user-attachments/assets/6bd7f76d-7e68-48d9-97c3-7a263756f9eb" />
+
+
+V2 v_oncall_shifts_valid
+<img width="975" height="466" alt="image" src="https://github.com/user-attachments/assets/4f55db89-a402-4e7e-b16c-94bc2a5d914b" />
+<img width="975" height="475" alt="image" src="https://github.com/user-attachments/assets/4681f6a0-732f-46d1-a482-8e472f1825e5" />
+
+V3: v_current_licenses
+<img width="975" height="478" alt="image" src="https://github.com/user-attachments/assets/517da47b-4049-42e3-8d33-e7f694c46fcc" />
+<img width="975" height="472" alt="image" src="https://github.com/user-attachments/assets/e7470cfc-6c74-4221-a572-a2f5194dd756" />
+
+V4: v_employee_overview
+<img width="975" height="509" alt="image" src="https://github.com/user-attachments/assets/d3b883bf-4db8-49ff-8667-0a9761fa79b1" />
+<img width="975" height="521" alt="image" src="https://github.com/user-attachments/assets/96958c32-e433-4c44-b020-21263bb3c930" />
+
+All Queries:
+
+https://github.com/Yosef100/Databases_Mini-project_20205_324710144/blob/main/viewTests.sql
+
+Full log:
+
+https://github.com/Yosef100/Databases_Mini-project_20205_324710144/blob/main/stage3%20views%20logs.pdf
 
 # visualization
 
@@ -332,7 +374,7 @@ run_time:
 We can see that the running times are shorter.
 
 ## Stage 4:
-The goal of the phase: Integrate our database (HR) with another team's external database (Advertising), perform a logical merge using FDW + mapping table, build useful views, and produce more ERD/DSD diagrams and full data.
+The goal of the phase: Integrate our database (Personnel) with another team's external database (Advertising), perform a logical merge using FDW + mapping table, build useful views, and produce more ERD/DSD diagrams and full data.
 
 # Integration between two databases (FDW)
 Creating an extension (once per DB) and creating a Foreign Server and User Mapping:
