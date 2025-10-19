@@ -287,7 +287,7 @@ https://github.com/Yosef100/Databases_Mini-project_20205_324710144/blob/main/Sta
 <img width="1044" height="615" alt="image" src="https://github.com/user-attachments/assets/cc70113e-f3d3-41b3-b7de-8da537ac741b" />
 
 script:
-https://github.com/Yosef100/Databases_Mini-project_20205_324710144/blob/main/views
+[https://github.com/Yosef100/Databases_Mini-project_20205_324710144/blob/main/views](https://github.com/Yosef100/Databases_Mini-project_20205_324710144/blob/main/views.sql)
 
 Select queries:
 
