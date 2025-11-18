@@ -395,7 +395,16 @@ Checking columns:
 Mapping table (Bridge) – logical bridge between HR and Ads:
 <img width="1252" height="684" alt="image" src="https://github.com/user-attachments/assets/71d5cf16-7180-40e2-a4ae-821f34317057" />
 
-#ERD of combined Database:
+#ERD
+original:
+
+<img width="3066" height="1548" alt="image" src="https://github.com/user-attachments/assets/ebac4bc3-c1d2-4a65-87ed-3d4e4b838568" />
+other:
+
+
+
+combined:
+
 <img width="2452" height="1285" alt="erd" src="https://github.com/user-attachments/assets/f9ece814-3097-4721-bd9a-c495545beb8d" />
 
 
