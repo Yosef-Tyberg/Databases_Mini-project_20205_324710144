@@ -410,6 +410,7 @@ dml:
 the second view:
 Mapping table wrapper
 <img width="1707" height="891" alt="image" src="https://github.com/user-attachments/assets/d9630b4e-c481-436e-894b-f6c9a72bc195" />
+The twenty most updated/oldest lines.
 select:
 <img width="1720" height="1333" alt="image" src="https://github.com/user-attachments/assets/4ab8c3fe-004e-4c38-ae42-32b40495c735" />
 dml:
@@ -417,12 +418,20 @@ dml:
 
 # queriers:
 first querier:
+Who are the 10 agents with the most associated employees in the organization?
+
 ![תמונה של WhatsApp‏ 2025-10-15 בשעה 22 24 20_183db99f](https://github.com/user-attachments/assets/08282322-870b-47bc-abe1-3e1be6f66d89)
 second querier:
+Which HR departments are the most concentrated (by number of agent assignments)?
+
 ![תמונה של WhatsApp‏ 2025-10-15 בשעה 22 25 02_c64bcd79](https://github.com/user-attachments/assets/a83a691f-6688-4df3-a9a9-6508fdd98dca)
 thired querier:
+Add a test association: Take the smallest worker and the smallest agent and join them (if one already exists — don't fall).
+
 ![תמונה של WhatsApp‏ 2025-10-15 בשעה 22 27 14_704ab040](https://github.com/user-attachments/assets/a4036a43-1e84-496d-ba5c-e71f7c4f9f8b)
 foured querier:
+Clear Test Association: Delete the same association you entered in the previous section.
+
 ![תמונה של WhatsApp‏ 2025-10-15 בשעה 22 28 02_76e8ea22](https://github.com/user-attachments/assets/ab1c3e86-be38-412a-8ea5-2c850c003d70)
 runTime:
 ![תמונה של WhatsApp‏ 2025-10-15 בשעה 22 29 40_c461e601](https://github.com/user-attachments/assets/0c0f2da2-dd3f-4bc7-9dc5-0c42b5039999)
