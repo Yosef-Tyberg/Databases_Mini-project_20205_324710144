@@ -1,0 +1,36 @@
+-- Q1: Top-10 סוכנים לפי מספר עובדים משויכים
+
+SELECT agent_id, agent_name, COUNT(*) AS employees_per_agent
+FROM public.v_agent_hr_profile
+GROUP BY agent_id, agent_name
+ORDER BY employees_per_agent DESC, agent_name
+LIMIT 10;
+
+-- Q2: ריכוז לפי מחלקה
+
+SELECT department_id, COUNT(*) AS links
+FROM public.v_agent_hr_profile
+GROUP BY department_id
+ORDER BY links DESC, department_id;
+
+-- Q3: INSERT דוגמתי לתפעול שיוך
+WITH pick AS (
+  SELECT
+    (SELECT employee_id FROM main.employee ORDER BY employee_id LIMIT 1) AS emp_id,
+    (SELECT agentid     FROM ads.agent      ORDER BY agentid     LIMIT 1) AS ag_id
+)
+INSERT INTO public.v_employee_agent_map(employee_id, agent_id)
+SELECT emp_id, ag_id
+FROM pick
+ON CONFLICT DO NOTHING;          -- למניעת כשל אם כבר קיים
+
+-- Q4: DELETE משלים לניקוי הדוגמה
+WITH pick AS (
+  SELECT
+    (SELECT employee_id FROM main.employee ORDER BY employee_id LIMIT 1) AS emp_id,
+    (SELECT agentid     FROM ads.agent      ORDER BY agentid     LIMIT 1) AS ag_id
+)
+DELETE FROM public.v_employee_agent_map v
+USING pick
+WHERE v.employee_id = pick.emp_id
+  AND v.agent_id    = pick.ag_id;
