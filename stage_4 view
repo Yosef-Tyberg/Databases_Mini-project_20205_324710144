@@ -1,0 +1,22 @@
+# first view
+
+DROP VIEW IF EXISTS public.v_agent_hr_profile;
+CREATE VIEW public.v_agent_hr_profile AS
+SELECT
+  a.agentid              AS agent_id,
+  a.fullname             AS agent_name,
+  e.employee_id,
+  e.department_id,
+  e.manager_id,
+  e.position_id
+FROM ads.agent a
+JOIN public.employee_agent_map m ON m.agent_id   = a.agentid
+JOIN main.employee          e ON e.employee_id = m.employee_id;
+
+# second view
+
+DROP VIEW IF EXISTS public.v_employee_agent_map;
+CREATE VIEW public.v_employee_agent_map AS
+SELECT employee_id, agent_id, mapped_at
+FROM public.employee_agent_map
+WITH CASCADED CHECK OPTION;
