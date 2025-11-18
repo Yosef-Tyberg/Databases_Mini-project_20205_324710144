@@ -373,6 +373,11 @@ run_time:
 <img width="1709" height="1205" alt="image" src="https://github.com/user-attachments/assets/2df82a42-95e8-4690-8d7a-70082626da45" />
 We can see that the running times are shorter.
 
+
+#Triggers
+v_current_licenses and v_employee_overview use triggers for I/U/D.
+the results of the triggers can be viewed in the logs of these views
+
 ## Stage 4:
 The goal of the phase: Integrate our database (Personnel) with another team's external database (Advertising), perform a logical merge using FDW + mapping table, build useful views, and produce more ERD/DSD diagrams and full data.
 
