@@ -396,7 +396,9 @@ Mapping table (Bridge) – logical bridge between HR and Ads:
 <img width="1252" height="684" alt="image" src="https://github.com/user-attachments/assets/71d5cf16-7180-40e2-a4ae-821f34317057" />
 
 #ERD
+original:
 
+<img width="3066" height="1548" alt="image" src="https://github.com/user-attachments/assets/37b3a0b5-aa65-4c89-8dec-4efae6e2164d" />
 
 combined:
 
