@@ -392,9 +392,12 @@ Mapping table (Bridge) – logical bridge between HR and Ads:
 
 # view:
 the first view:
+
 Agent Profile ↔ HR Employee
+Which employees belong to each agent, and in which department/position they are in.
 <img width="1713" height="826" alt="image" src="https://github.com/user-attachments/assets/da6d88e0-14c7-485c-8eeb-e72d8f557538" />
 select:
+Top agents by number of employees mapped.
 <img width="1702" height="1272" alt="image" src="https://github.com/user-attachments/assets/a6436886-9729-4cd3-bf7c-6932a0b97799" />
 dml:
 <img width="1716" height="1143" alt="image" src="https://github.com/user-attachments/assets/01e02c9e-6f45-4f52-91d5-144a9f28b7c9" />
